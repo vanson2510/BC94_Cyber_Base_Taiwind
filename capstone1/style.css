@@ -1,0 +1,148 @@
+@keyframes ripple{
+    0%{
+        transform: scale(1);
+        opacity: 0.8;
+    }100%{
+        transform: scale(1.5);
+        opacity: 0;
+    }
+}
+.right__icon{
+    animation: ripple 1s linear infinite;
+    animation-delay: 1s;
+}
+@layer utilities{
+    .clip_cut{
+        clip-path: polygon(0% 0%, 100% 30%, 100% 100%, 0% 100%);
+    }
+}
+
+@keyframes start__x{
+    0%{
+        transform: translateX(-200px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+.start__left{
+    animation:start__x 1s ease-out forwards ;
+    transition: all 1s;
+    animation-delay: 1s;
+}
+@keyframes suppor__y{
+    0%{
+        transform: translateY(-30px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+/* .support__list{
+    animation: suppor__y 1s ease-out forwards;
+    transition: all 0.5s;
+    
+} */
+.support__item{
+     animation: suppor__y 1s ease-out forwards;
+   
+}
+.support__item2{
+    animation: suppor__y 1s ease-out forwards;
+    animation-delay: 0.3s;
+}
+.support__item3{
+    animation: suppor__y 1s ease-out forwards;
+    animation-delay: 0.4s;
+}
+
+
+@keyframes custom__x{
+    0%{
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+@keyframes custom__right{
+    0%{
+        transform: translateX(100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+.custom__left{
+    animation:custom__x 1s ease-out forwards ;
+    
+}
+.custom__right{
+    animation:custom__right 1s ease-out forwards ;
+    
+}
+.creative__title{
+    animation: suppor__y 1s ease-out forwards;
+}
+.creative__item{
+     animation: suppor__y 1s ease-out forwards;
+     animation-delay: 0.2s;
+}
+.creative__item2{
+     animation: suppor__y 1s ease-out forwards;
+     animation-delay: 0.4s;
+}
+.creative__item3{
+     animation: suppor__y 1s ease-out forwards;
+     animation-delay: 0.6s;
+}
+.service__title{
+    animation: suppor__y 1s ease-out forwards;
+}
+.service__item{
+    animation: suppor__y 1s ease-out forwards;
+     animation-delay: 0.1s;
+}
+.service__item2{
+    animation: suppor__y 1s ease-out forwards;
+     animation-delay: 0.2s;
+}
+.service__item3{
+    animation: suppor__y 1s ease-out forwards;
+     animation-delay: 0.3s;
+}
+.service__item4{
+    animation: suppor__y 1s ease-out forwards;
+     animation-delay: 0.4s;
+}
+.service__item5{
+    animation: suppor__y 1s ease-out forwards;
+     animation-delay: 0.5s;
+}
+.service__item6{
+    animation: suppor__y 1s ease-out forwards;
+     animation-delay: 0.6s;
+}
+.price__title{
+    animation: suppor__y 1s ease-out forwards;
+}
+.storage__item{
+    animation: suppor__y 1s ease-out forwards;
+     animation-delay: 0.2s;
+}
+.storage__item2{
+    animation: suppor__y 1s ease-out forwards;
+     animation-delay: 0.4s;
+}
+.storage__item3{
+    animation: suppor__y 1s ease-out forwards;
+     animation-delay: 0.6s;
+}
