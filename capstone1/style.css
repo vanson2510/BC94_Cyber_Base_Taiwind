@@ -176,3 +176,31 @@ input {
     margin-top: 8px;
     cursor: pointer;
 }
+
+.footer .row {
+    padding-bottom: 70px;
+    border-bottom: 1px solid blue;
+}
+
+/* Back To Top */
+
+.backToTop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: blue;
+    color: white;
+    padding: 1rem;
+    border-radius: 5px;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.cd-top--is-visible {
+  visibility: visible;
+  opacity: 1;
+}
+
+.cd-top--fade-out {
+  opacity: 0.5;
+}
