@@ -146,3 +146,33 @@
     animation: suppor__y 1s ease-out forwards;
      animation-delay: 0.6s;
 }
+
+/* Footer */
+.footer a:hover {
+    color: rgb(86, 86, 233);
+}
+
+/* .footer__email {
+    border: 1px solid;
+    color: white;
+    border-radius: 20px;
+} */
+
+.email-box {
+position: relative;
+
+}
+
+input {
+    border: none;
+    outline: none;
+    border-radius: 20px;
+}
+
+.btn-send {
+    position: absolute;
+    right: 50px;
+    color: black;
+    margin-top: 8px;
+    cursor: pointer;
+}
