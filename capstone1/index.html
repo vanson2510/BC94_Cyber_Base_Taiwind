@@ -414,8 +414,10 @@
     <!-- end  price section  -->
 
     <!-- Footer -->
-    <footer class="footer py-25">
-        <div class="flex justify-between items-start w-[90%] m-auto">
+
+    <footer class="footer">
+        <!-- Footer Top -->
+        <div class="flex justify-between items-start w-[90%] m-auto row py-25">
             <div class="">
                 <a href="#">
                     <img src="./img/logo-light.svg" alt="">
@@ -464,8 +466,26 @@
                 </div>
             </div>
         </div>
+        <!-- Footer Bottom -->
+        <div class="flex justify-between w-[90%] m-auto py-10 ">
+            <div class="">
+                <ul class="flex text-gray-500 ">
+                    <li><a href="#">English</a></li>
+                    <li class="px-10"><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Support</a></li>
+                </ul>
+            </div>
+            <div>
+                <p class="text-gray-500">© 2025 Base. All rights reserved</p>
+            </div>
+        </div>
 
     </footer>
+
+    <!-- Back to top -->
+    <a href="#" class="backToTop cd-top text-replace js-cd-top">
+        <i class="fa-solid fa-chevron-up"></i>
+    </a>
 
 
 
@@ -482,6 +502,10 @@
     <script>
         new WOW().init();
     </script>
+
+    <!-- Back to top -->
+     <script src="./library/back-to-top/main.js"></script>
+     <script src="./library/back-to-top/util.js"></script>
 
 </body>
 
