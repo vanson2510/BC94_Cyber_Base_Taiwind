@@ -147,6 +147,8 @@
      animation-delay: 0.6s;
 }
 
+/* Contact */
+
 /* Footer */
 .footer a:hover {
     color: rgb(86, 86, 233);
@@ -163,11 +165,11 @@ position: relative;
 
 }
 
-input {
+/* input {
     border: none;
     outline: none;
     border-radius: 20px;
-}
+} */
 
 .btn-send {
     position: absolute;
